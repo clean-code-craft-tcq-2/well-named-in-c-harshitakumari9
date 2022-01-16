@@ -8,3 +8,6 @@ const char* MajorColorNames[] = {
 const char* MinorColorNames[] = {
     "Blue", "Orange", "Green", "Brown", "Slate"
 };
+
+extern void ColorPairToString(const ColorPair* colorPair, char* buffer);
+extern int GetPairNumberFromColor(const ColorPair* colorPair);
