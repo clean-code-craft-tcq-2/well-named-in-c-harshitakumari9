@@ -1,5 +1,8 @@
 #include "Test_ColorPair.h"
 
+enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
+
 void testNumberToPair(int pairNumber,
     enum MajorColor expectedMajor,
     enum MinorColor expectedMinor)
