@@ -1,7 +1,6 @@
-const char* MajorColorNames[] = {
-    "White", "Red", "Black", "Yellow", "Violet"
-};
+extern const char* MajorColorNames[];
 
-const char* MinorColorNames[] = {
-    "Blue", "Orange", "Green", "Brown", "Slate"
-};
+extern const char* MinorColorNames[];
+
+enum MajorColor {WHITE, RED, BLACK, YELLOW, VIOLET};
+enum MinorColor {BLUE, ORANGE, GREEN, BROWN, SLATE};
