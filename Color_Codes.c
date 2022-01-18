@@ -5,6 +5,14 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
+const char* MajorColorNames[] = {
+    "White", "Red", "Black", "Yellow", "Violet"
+};
+
+const char* MinorColorNames[] = {
+    "Blue", "Orange", "Green", "Brown", "Slate"
+};
+
 int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
 
 const int MAX_COLORPAIR_NAME_CHARS = 16;
