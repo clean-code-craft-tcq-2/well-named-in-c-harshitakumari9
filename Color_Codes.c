@@ -1,10 +1,5 @@
 #include "Color_Codes.h"
 
-typedef struct {
-    enum MajorColor majorColor;
-    enum MinorColor minorColor;
-} ColorPair;
-
 const char* MajorColorNames[] = {
     "White", "Red", "Black", "Yellow", "Violet"
 };
@@ -12,6 +7,8 @@ const char* MajorColorNames[] = {
 const char* MinorColorNames[] = {
     "Blue", "Orange", "Green", "Brown", "Slate"
 };
+
+//ColorPair wirecolorpair;
 
 int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
 
