@@ -10,4 +10,4 @@ typedef struct {
     enum MinorColor minorColor;
 } ColorPair;
 
-extern ColorPair wirecolorpair;
+//extern ColorPair wirecolorpair;
