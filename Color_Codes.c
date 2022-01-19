@@ -9,7 +9,8 @@ const char* MinorColorNames[] = {
     "Blue", "Orange", "Green", "Brown", "Slate"
 };
 
-//ColorPair wirecolorpair;
+ColorPair GetColorFromPairNumber(int pairNumber);
+void ColorPairToString(const ColorPair* colorPair, char* buffer);
 
 int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
 
