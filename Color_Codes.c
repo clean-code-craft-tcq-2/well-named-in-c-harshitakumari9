@@ -4,10 +4,6 @@
 const char* MajorColorNames[] = {"White", "Red", "Black", "Yellow", "Violet"};
 const char* MinorColorNames[] = {"Blue", "Orange", "Green", "Brown", "Slate"};
 
-ColorPair GetColorFromPairNumber(int pairNumber);
-void ColorPairToString(const ColorPair* colorPair, char* buffer);
-void PrintRefManual();
-
 int numberOfMajorColors = sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
 int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
