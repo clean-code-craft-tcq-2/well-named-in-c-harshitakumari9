@@ -36,7 +36,8 @@ void PrintRefManual()
        {
             for(unsigned int minorcolorname=0;minorcolorname<5;minorcolorname++)
             {
-                printf("%s\t%s\t%u\n", MajorColorNames[majorcolorname],MinorColorNames[minorcolorname],pairnum);
+                printf("Reference Manual for Color Pair of Wires");
+                printf("\n\n%s\t%s\t%u\n", MajorColorNames[majorcolorname],MinorColorNames[minorcolorname],pairnum);
                 pairnum++;
             }
        } 
