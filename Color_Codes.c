@@ -32,12 +32,12 @@ int GetPairNumberFromColor(const ColorPair* colorPair)
 void PrintRefManual()
 {
        unsigned int pairnum=1;
+       printf("\n\nReference Manual for Color Pair of Wires\n\n");
        for(unsigned int majorcolorname=0;majorcolorname<5;majorcolorname++)
        {
             for(unsigned int minorcolorname=0;minorcolorname<5;minorcolorname++)
             {
-                printf("\n\nReference Manual for Color Pair of Wires\n");
-                printf("\n%s\t%s\t%u\n", MajorColorNames[majorcolorname],MinorColorNames[minorcolorname],pairnum);
+                printf("%s\t%s\t%u\n", MajorColorNames[majorcolorname],MinorColorNames[minorcolorname],pairnum);
                 pairnum++;
             }
        } 
